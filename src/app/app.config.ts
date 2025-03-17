@@ -6,14 +6,14 @@ import { provideFirestore, getFirestore } from '@angular/fire/firestore';
 
 
 const firebaseConfig = {
-  apiKey: 'AIzaSyB80f0VyL5L1dBQm25LZXOnWJcEwBEyT2U',
-  authDomain: 'biblioteca-4aefe.firebaseapp.com',
-  projectId: 'biblioteca-4aefe',
-  storageBucket: 'biblioteca-4aefe.firebasestorage.app',
-  messagingSenderId: '854013119745',
-  appId: '1:854013119745:web:fbb0e9c552fa10e17e5f00',
+  apiKey: "AIzaSyD1YX-G_S5okUtwIfryfqkfocPbGuaWw74",
+  authDomain: "biblioteca-cb.firebaseapp.com",
+  projectId: "biblioteca-cb",
+  storageBucket: "biblioteca-cb.firebasestorage.app",
+  messagingSenderId: "321029652439",
+  appId: "1:321029652439:web:384f133aee757c63b9d592",
+  measurementId: "G-7ZNKBHY3F8"
 };
-
 
 export const appConfig: ApplicationConfig = {
   providers: [provideZoneChangeDetection({ eventCoalescing: true }), 
