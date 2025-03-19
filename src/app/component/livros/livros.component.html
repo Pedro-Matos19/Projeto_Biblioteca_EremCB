@@ -1,0 +1,21 @@
+<form [formGroup]="livroForm">
+
+    <div class="container">
+    <h1>Bem vindo ao seu gerenciamento de livros</h1>
+        <div class="formulario">
+            <label for="livro">Nome do Livro</label>
+            <input type="text" id="livro" formControlName="nome" required >
+
+            <label for="autor">Nome do Autor(a)</label>
+            <input type="text" id="autor" formControlName="autor" required>
+
+            <label for="lugar">Lugar</label>
+            <input type="text" id="lugar" formControlName="lugar" required>
+
+            <button (click)="addBook()">Adicionar</button>
+            <button routerLink="/livros-lista">Ver Lista</button>
+        </div>
+    </div>
+
+</form>
+    
