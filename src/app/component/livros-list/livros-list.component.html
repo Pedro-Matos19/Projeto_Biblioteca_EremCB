@@ -1,0 +1,8 @@
+<ul>
+    <li *ngFor="let livro of livroList$ | async">
+        Nome do Livro: {{ livro.nome }} <br>
+        Autor: {{ livro.autor }} <br>
+        lugar: {{ livro.lugar }} <br>
+        <hr>
+    </li>
+</ul>
